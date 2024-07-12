@@ -90,7 +90,7 @@ class Player {
     }
 }
 
-type PlayerSymbol = "X" | "O"
+type PlayerSymbol = "X" | "O" | null
 
 class Game {
     public Execute() {
